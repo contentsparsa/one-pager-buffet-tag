@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore More</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background: linear-gradient(to bottom, #000000, #000000);
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 50px 0 20px;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 600px;
+      text-align: center;
+      margin-top: 0;
+    }
+
+    .header-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 20px;
+      text-align: left;
+    }
+
+    .header-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 20px;
+      text-align: left;
+    }
+
+    .logo {
+      width: 150px;
+      flex-shrink: 0;
+       margin-right: 100px;
+       margin-left: 20px;
+       align-items: self-end;
+    }
+    
+    /* Divider */
+    .divider {
+      width: 425px;
+      height: 1px;
+      background: rgba(0, 0, 0, 0.2);
+      margin-bottom: 50px;
+      align-self: center;
+    }
+
+    .brand-text {
+      flex: 1;
+      font-size: 14px;
+      line-height: 1.6;
+      opacity: 0.9;
+      display: inline-flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin: 10px 0 10px;
+    }
+
+  
+    p {
+      font-size: 14px;
+      opacity: 0.8;
+      margin-bottom: 30px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(10px);
+      border-radius: 14px;
+      padding: 18px;
+      margin-bottom: 15px;
+      transition: 0.3s ease;
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .card:hover {
+      background: rgba(255, 255, 255, 0.15);
+      transform: translateY(-4px);
+    }
+
+    .card a {
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: bold;
+      font-size: 16px;
+      display: block;
+    }
+
+    a.card {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .card span {
+      display: block;
+      font-size: 13px;
+      font-weight: normal;
+      opacity: 0.7;
+      margin-top: 6px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="header-row">
+      <img src="logo.png" alt="Company Logo" class="logo">
+      <div class="brand-text">
+        
+        <span>Inspired by innovation,</span>
+        <span>driven by excellence.</span>
+      </div>
+  
+    </div>
+   <div class="divider"></div> 
+
+    <!-- Heading -->
+    <h1>Explore More</h1>
+    <p>Discover our product in detail through the options below</p>
+    
+     <div class="card">
+      <a href="https://www.youtube.com/@sparsa-digital-pvt-ltd">Latest Installation</a>
+      <span>Explore the key features and capabilities of our solution.</span>
+    </div>
+
+    <!-- Links -->
+    <div class="card">
+      <a href="https://contentsparsa.github.io/Digital-Price-Tag/">3D Product View</a>
+      <span>Experience a complete 360° view</span>
+    </div>
+
+    <!--
+    <div class="card">
+      <a href="#">Demo Video</a>
+      <span>See how it works in real scenarios</span>
+    </div>
+    -->
+
+    <div class="card">
+      <a href="https://sparsadigital.in">Visit Website</a>
+      <span>Explore more products</span>
+    </div>
+
+    <div class="card">
+        <a href="mailto:business@sparsatv.in">Email Us</a>
+        <span>Send us your queries anytime</span>
+   </div>
+
+   <div class="card">
+     <a href="tel:+918043063109">Call Us</a>
+     <span>Speak directly with our team</span>
+   </div>
+
+   <div class="card">
+  <a href="https://fssai.gov.in/">FSSAI Guidelines</a>
+  <span>View official food safety rules & regulations</span>
+</div>
+
+  </div>
+
+</body>
+</html>
